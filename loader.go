@@ -8,6 +8,10 @@ import (
 	"unicode/utf8"
 )
 
+func init() {
+	Load()
+}
+
 //Load Env Vars
 func Load() {
 	f, err := os.Open(".env")
