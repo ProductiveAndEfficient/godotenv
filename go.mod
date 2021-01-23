@@ -1,3 +1,2 @@
-module github.com/lemon-mint/godotenv
-
+module github.com/ProductiveAndEfficient/godotenv
 go 1.15
